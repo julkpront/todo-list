@@ -1,0 +1,28 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: var(--cream);
+  padding: 16px;
+  border-radius: 12px;
+}
+
+.form__buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.form__submit {
+  background: var(--green);
+  color: white;
+}
+
+.form__cancel {
+  background: #888;
+  color: white;
+}
+
+.form__error {
+  color: var(--red);
+  font-weight: 600;
+}

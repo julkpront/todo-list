@@ -1,0 +1,48 @@
+:root {
+  --green: #1e7a4c;
+  --green-dark: #0f3d2a;
+  --red: #c0392b;
+  --gold: #f1c40f;
+  --cream: #fff8f0;
+  --text: #2c2c2c;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  background: var(--green-dark);
+  color: var(--text);
+  min-height: 100vh;
+}
+
+button {
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 14px;
+  transition: transform 0.15s, filter 0.15s;
+}
+
+button:hover {
+  filter: brightness(1.1);
+  transform: translateY(-1px);
+}
+
+input[type='text'] {
+  font: inherit;
+  padding: 10px 12px;
+  border: 2px solid transparent;
+  border-radius: 8px;
+}
+
+input[type='text']:focus {
+  outline: none;
+  border-color: var(--gold);
+}
